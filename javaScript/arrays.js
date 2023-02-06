@@ -27,3 +27,13 @@ console.table("the index for the element lastname is " +info.indexOf("lastname")
 console.table(info)
 
 console.log('====================================');
+
+
+
+/** how to convert string to array of string  */
+
+let str = "hello world";
+let leters = [...str];
+
+console.log(str);
+console.log(leters);

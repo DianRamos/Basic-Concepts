@@ -29,3 +29,24 @@ var myFunction = function(a,b){
     return a+b;
 }
 console.log(myFunction(4,5));
+
+
+/** fynction of recursion */
+
+const rec = (x) => {
+  if (x=== 0) {
+    return 0
+  }
+  else {
+    return rec (x-1)
+  }
+}
+
+console.log(rec(5));
+
+/** posbles answers
+ * 1. 5
+ * 2. 4
+ * 3. 0
+ * 4. undefined
+ */
